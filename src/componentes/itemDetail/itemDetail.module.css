@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    border: 2px solid ;
+}
+.precio{
+    width: 200px;
+}
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pp{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(19, 86, 95);
+    color: white;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    color: black;
+}
+.precioos{
+    color: rgb(9, 187, 54);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

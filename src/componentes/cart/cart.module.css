@@ -1,0 +1,28 @@
+.pr{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.link{
+    display: grid;
+    place-items: center;
+    margin-bottom: 15px;
+
+    }
+    .total{
+        margin-left: 30px;
+        font-weight: 600;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+.containerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.btnEliminar{
+    border: 1px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

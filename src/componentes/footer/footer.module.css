@@ -1,0 +1,26 @@
+
+.link{
+    color: rgb(17, 192, 148);
+    background-color: black;
+}
+.link:hover{
+    color: black;
+    background-color: rgb(90, 196, 238);
+    border-radius: 5px;
+}
+.ulse{
+    border: none;
+    max-width: 0px;
+    
+    place-items: center;
+    place-content: center;
+}
+footer{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+.lii{
+    background-color: black;
+}

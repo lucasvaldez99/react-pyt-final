@@ -1,0 +1,46 @@
+.contenedorDiv{
+    background-color: black;
+   width: 400px;
+    display: grid;
+    place-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn{
+    background-color: blue;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    color: beige;
+}
+.Productos{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.acciones{
+    background-color: rgb(42, 185, 114);
+    font-weight: 900;
+    padding: 2px;
+    cursor: pointer;
+}
+.acciones:hover{
+color: white;
+    
+}
+.btnAgregar{
+   color: rgb(25, 116, 78);
+   border-radius: 5px;
+   font-size: 15px;
+   margin-bottom: 10px;
+}
+.btnAgregar:hover{
+    background-color: black;
+    border: 1px ridge white;
+}
