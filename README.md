@@ -1,71 +1,40 @@
-# Getting Started with Create React App
+# _E-comerce de venta de cosas para motos_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Tienda de productos para motos. 
+*
+Base de datos de productos en firebase.
+*
+Producto con link desde el card al detalle de cada productos. 
+*
+Seleccionar cantidad. Agregar al carrito. 
+*
+Menu de categorias dinamico. Se pueden agregar, quitar o modificar desde Firebase.
+*
+Carrito de compras con items agregados, boton de eliminar por producto o vaciar el carrito. 
+*
+Finalizar compra completando un formulario (validaciones de campor requerido, @ en mail, y 10 numeros o mas en telefono) que envia los datos a la base de datos de firebase. 
+*
 
-### `npm start`
+Footer con las redes sociales de contacto.
+## librerias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React Icons](https://react-icons.github.io/react-icons/):  Librería utilizada para utilizar el icono de carrito.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+  `npm install react-icons`
+- [React Router Dom](https://reactrouter.com/en/main): Librería utilizada para manejar las rutas de nuestra aplicación.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+  `npm install react-router-dom`
+- [Firebase](https://firebase.google.com/): Librería utilizada para la realización del mock de productos y almacenar las ordenes de compra. 
+  `npm install firebase`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-[React-spinners](https://www.npmjs.com/package/react-spinners): Libreria utilizada para mostrar
+animaciones en los tiempos de espera.
+`npm install react-spinners`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-pyt-final
+###un gif del E-comerce
+![](https://res.cloudinary.com/dgb1r2nnn/image/upload/v1665087594/productos/GIF_fm7nmx.gif)
