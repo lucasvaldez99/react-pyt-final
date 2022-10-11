@@ -35,6 +35,3 @@ Footer con las redes sociales de contacto.
 animaciones en los tiempos de espera.
 `npm install react-spinners`
 
-
-###un gif del E-comerce
-![](https://res.cloudinary.com/dgb1r2nnn/image/upload/v1665087594/productos/GIF_fm7nmx.gif)
